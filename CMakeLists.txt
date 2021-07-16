@@ -3,5 +3,5 @@ project(simpleXGDbaseDir)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(${CMAKE_PROJECT_NAME} src/simpleXDBbaseDir.cpp)
-target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC include)
+add_library(sXDGbd SHARED src/sXDGbd.cpp)
+target_include_directories(sXDGbd PUBLIC include)
